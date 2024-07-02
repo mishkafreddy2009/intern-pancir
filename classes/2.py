@@ -14,12 +14,19 @@ class BankAccount:
     def get_balance(self) -> int:
         return self.__balance
 
-bank_account = BankAccount(500)
-print(bank_account.get_balance())
-bank_account.deposit(5000)
-print(bank_account.get_balance())
-bank_account.withdraw(4000)
-print(bank_account.get_balance())
-bank_account.withdraw(4000)
-bank_account.withdraw(1500)
-print(bank_account.get_balance())
+
+def main() -> int:
+    bank_account = BankAccount(500)
+    print(bank_account.get_balance())
+    bank_account.deposit(5000)
+    print(bank_account.get_balance())
+    bank_account.withdraw(4000)
+    print(bank_account.get_balance())
+    bank_account.withdraw(4000)
+    bank_account.withdraw(1500)
+    print(bank_account.get_balance())
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
