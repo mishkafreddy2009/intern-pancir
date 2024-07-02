@@ -1,3 +1,7 @@
+# Написать программу, которая использует цикл while для подсчета факториала
+# числа, введенного пользователем.
+
+
 def compute_factorial(number: int) -> int:
     result = 1
     while number != 0:

@@ -1,3 +1,7 @@
+# Написать функцию, которая делит два числа и обрабатывает исключение деления
+# на ноль.
+
+
 def divide_two_numbers(a: float, b: float) -> float:
     try:
         result = a / b

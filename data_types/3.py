@@ -1,3 +1,7 @@
+# для интересующихся (необязательно):
+# Создайте тип данных, который может хранить только числа больше нуля
+
+
 class PositiveList():
     def __init__(self, *numbers: int) -> None:
         self.numbers = [x for x in numbers if x > 0]

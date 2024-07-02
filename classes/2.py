@@ -1,3 +1,7 @@
+# Создать класс BankAccount с атрибутами balance и методами deposit, withdraw,
+# и get_balance. Реализовать контроль за достаточностью средств при снятии.
+
+
 class BankAccount:
     def __init__(self, balance: int):
         self.__balance = balance

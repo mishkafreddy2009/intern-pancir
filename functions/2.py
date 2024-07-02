@@ -1,3 +1,7 @@
+# Написать функцию, которая принимает список строк и возвращает словарь, где
+# ключи — это длины строк, а значения — списки строк соответствующей длины.
+
+
 def get_strings_by_len(strings: list[str]) -> dict[int, list[str]]:
     result = {len(i): [] for i in sorted(strings, key=len)}
     for i in strings:

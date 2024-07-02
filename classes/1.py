@@ -1,3 +1,6 @@
+# Создать класс Car с атрибутами made_by,  model и методом display_info,
+# который выводит информацию о машине.
+
 class Car:
     def __init__(self):
         self.made_by = "Toyota"

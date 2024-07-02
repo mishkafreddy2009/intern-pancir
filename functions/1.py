@@ -1,3 +1,7 @@
+# Написать функцию, которая принимает список чисел и возвращает их среднее
+# значение.
+
+
 def avg(numbers: list[float]) -> float:
     return sum(numbers) / len(numbers)
 
